@@ -3,7 +3,7 @@ $("body").ready(function(){
 	
 	$("#curiosidades").click(function(){ 
 			$("main").slideDown(2000)
-			$("#cur").css("display", "flex"),
+			$("#text").css("display", "flex"),
 			$("table").css("display", "none"),
 			$("main #contato").css("display", "none")
 			
@@ -18,20 +18,20 @@ $("body").ready(function(){
 	$("#galeria").click(function(){
 		$("main").slideDown(400),
 		$("main table").css("display", "flex"),
-		$("main #cur").css("display", "none")
+		$("main #text").css("display", "none")
 		$("main #contato").css("display", "none")
 	});
 
-		$("#contatos").click(function(){
+		$("#contatos").click(function(){r
 		$("main").css("height","80px"),
 		$("main").slideDown(2000),
 		$("main table").css("display", "none"),
-		$("main #cur").css("display", "none"),
+		$("main #text").css("display", "none"),
 		$("main #contatos").css("display", "flex")
 	});
 		$("#cliente").click(function(){
 
-			$("#client").slideToggle()
+			$("#cliente").slideToggle()
 		
 		
 	});
